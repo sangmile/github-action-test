@@ -17,7 +17,7 @@ jobs:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_region: "kr-standard"
-          aws_s3_endpoint: "kr.object.ncloudstorage.com"
+          aws_s3_endpoint: "https://kr.object.ncloudstorage.com"
           source: "./"
           dest: "s3://sangmile-objects/githubActions"
           flags: --recursive
